@@ -1,4 +1,6 @@
-/training
+/training/*
+!/training/training_model.ipynb
+
 /datasets
 /input_videos
 /images
