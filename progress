@@ -1,0 +1,39 @@
+Objective:
+
+To develop simple application that can monitor and analyse football matches. 
+Able to classify each player, Providing relevant data of each player.
+
+
+Computer Vision Task:
+
+Object detection is ideal for player monitoring because it efficiently locates and identifies multiple players on the pitch.
+It is less computationally demanding than image segmentation, which provides unnecessary detail for this task, ensuring faster, real-time analysis.
+
+
+Detect & Track Objects
+Predict teams 
+Tatical map representation --> use homeography transformation; a matrix multiplication
+
+Ball Possession Rate
+Player Travelled distances          
+Ball & Players average speed 
+
+
+Purpose of each tool
+
+YOLOV8: Object detection; detect and classify each object in the frame
+
+OpenCV: Object tracking; image, video processing
+
+
+Work flow 
+
+1. Import necessary libraries (See requirements.txt)  ✔️
+2. Test YOLOV8x.pt model; can identify images and identify players in football recording (Object detection) ✔️
+3. Train Model for Object detection using custom data set
+   - install cuda & cuDNN ✔️
+   - download custom dataset with labelled images ✔️
+   - start training using google colab ✔️
+   - running analysis on every single video within a folder ✔️
+
+4. Start using OpenCV for extra features

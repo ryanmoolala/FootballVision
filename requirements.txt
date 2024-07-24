@@ -1,0 +1,10 @@
+ultralytics
+opencv-python
+pytest
+matplotlib
+pandas
+numpy
+torch
+torchaudio
+torchvision
+roboflow
