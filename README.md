@@ -7,7 +7,7 @@ Work in progress as it is not fully accurate
 The primary goal of this project is to detect and track players, referees, and footballs in video footage. With this information, we can measure a team’s ball acquisition percentage during a match, alongside various statistics.
 
 # Technologies
-[**YOLOv8**](https://github.com/ultralytics/yolov8) ·
+[**YOLOv8**]([https://github.com/ultralytics/yolov8](https://docs.ultralytics.com/)) ·
 [**OpenCV**](https://opencv.org/) ·
 NumPy ·
 Pandas ·
