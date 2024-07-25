@@ -9,3 +9,4 @@ torchaudio
 torchvision
 roboflow
 supervision
+scikit-learn

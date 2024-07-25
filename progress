@@ -27,6 +27,8 @@ OpenCV: Object tracking; image, video processing
 
 ByteTrack: Tracking algorithm for each player, ball
 
+SCIKit-Learn: data mining and data analysis, used for K-Means clustering
+
 
 Work flow 
 
@@ -41,9 +43,17 @@ Work flow
 4. Start using OpenCV for extra features
    - Video processing✔️
    - Object tracking --> player tracking✔️, referee tracking✔️, ball tracking✔️
+
    - Player color assignment (Differentiate players from each other)
-   - Ball interpolation
+     - K Means clustering
+     - Try to fix inaccuracies
    
+   - Ball interpolation ✔️
+     - using pandas to interpolate
+     Try to fix inaccuracies
+
+   - Player - Ball Assigning
+
 
 
    - Used OpenCV to split each clip into frames
