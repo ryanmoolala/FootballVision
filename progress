@@ -25,6 +25,8 @@ YOLOV8: Object detection; detect and classify each object in the frame
 
 OpenCV: Object tracking; image, video processing
 
+ByteTrack: Tracking algorithm for each player, ball
+
 
 Work flow 
 
@@ -34,6 +36,16 @@ Work flow
    - install cuda & cuDNN ✔️
    - download custom dataset with labelled images ✔️
    - start training using google colab ✔️
-   - running analysis on every single video within a folder ✔️
+   - running analysis on every single video within a folder ✔️ (Using CUDA speeds it up A LOT)
 
 4. Start using OpenCV for extra features
+   - Video processing✔️
+   - Object tracking --> player tracking✔️, referee tracking✔️, ball tracking✔️
+   - Player color assignment (Differentiate players from each other)
+   - Ball interpolation
+   
+
+
+   - Used OpenCV to split each clip into frames
+   - Used supervision and bytetrack to convert goalkeepers to players too.
+   - Converted bbox of each player into ellipses
