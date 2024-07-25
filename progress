@@ -29,6 +29,14 @@ ByteTrack: Tracking algorithm for each player, ball
 
 SCIKit-Learn: data mining and data analysis, used for K-Means clustering
 
+NumPy: For numerical computations.
+
+Pandas: For data manipulation and analysis.
+
+Roboflow: For data augmentation and dataset management.
+
+Supervision: For video analysis and monitoring.
+
 
 Work flow 
 
